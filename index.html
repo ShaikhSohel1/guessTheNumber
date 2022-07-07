@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riddle Me This</title>
+    
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="/assets/index.4b40ae9c.css">
+  </head>
+  <body class="bg-[#1F2937]">
+    <nav class="navbar flex justify-between">
+      <button
+        class="againBtn ml-5 mt-3 p-2 px-6 bg-sky-600 text-slate-50 hover:bg-sky-50 hover:text-black rounded-md text-lg"
+      >
+        Again!
+      </button>
+      <span
+        class="between mr-5 mt-3 text-2xl font-semibold font-sans text-slate-300"
+        >&#9886;Beween 1 To 20&#9887;</span
+      >
+    </nav>
+    <div class="riddleMeThis flex-1">
+      <h1
+        class="heading text-center text-3xl m-10 text-opacity-70 font-bold font-serif text-teal-50 animate-pulse"
+      >
+        Riddle Me This!
+      </h1>
+      <div
+        class="box animate-bounce bg-white w-fit m-[auto] p-5 px-9 rounded-md text-5xl"
+      >
+        ?
+      </div>
+    </div>
+
+    <section class="data flex justify-between">
+      <div class="left mt-16">
+        <input
+          type="number"
+          class="inputNumber m-10 w-1/2 py-5 text-center text-2xl font-mono bg-slate-700 rounded-lg border-x-4 border-purple-500 border-y-2 border-y-indigo-400 text-teal-100"
+        />
+        <div class="btn ml-12">
+          <button
+            class="check ml-3 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
+          >
+            <span
+              class="relative px-6 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"
+            >
+              Check!
+            </span>
+          </button>
+        </div>
+      </div>
+      <div class="right mt-9 text-sky-200 md:mt-20 md:mr-10">
+        <p class="msg mt-2 mr-9">Start Guessing...</p>
+        <p class="label-Score mt-10 md:mt-16">
+          💯Score: <span class="score">20</span>
+        </p>
+        <p class="lable-HighScore mt-10 mr-10">
+          🏅HighScore: <span class="highScore">0</span>
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
